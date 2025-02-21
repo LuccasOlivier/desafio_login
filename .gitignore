@@ -2,8 +2,6 @@ node_modules
 # Ignorar o ambiente virtual
 venv/
 
-# Ignorar arquivos de banco de dados SQLite
-db.sqlite3
 
 # Ignorar arquivos compilados do Python
 __pycache__/
