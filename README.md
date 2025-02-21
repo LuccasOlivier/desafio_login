@@ -47,7 +47,7 @@ A aplicação contém:
 
 ### 1️⃣ Clonar o Repositório
 ```bash
-git clone https://github.com/seu-usuario/desafio-login.git
+git clone https://github.com/LuccasOlivier/desafio_login.git
 cd desafio-login
 ```
 
