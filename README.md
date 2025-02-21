@@ -39,6 +39,12 @@ A aplicação contém:
 ---
 ## ⚙️ Como Configurar o Projeto
 
+⚠️ Pré-requisitos
+- Python 3 instalado (verifique com `python --version`)
+- Git instalado (opcional, se quiser clonar o repositório)
+- Ambiente virtual recomendado para isolar as dependências
+
+
 ### 1️⃣ Clonar o Repositório
 ```bash
 git clone https://github.com/seu-usuario/desafio-login.git
@@ -72,6 +78,19 @@ python manage.py runserver
 ```
 Acesse no navegador: **http://127.0.0.1:8000/**
 
+## 🛠 Como Testar a Aplicação
+- Criar um usuário pela tela de registro e testar o login
+- Certifique-se de que usuários não logados não conseguem acessar a tela do menu diretamente.
+
+### Teste a Tela de Registro
+- Verifique se o formulário contém os campos “nome”, “e-mail”, “senha” e “confirmar senha”.
+- Confirme que o campo “nome” aceita apenas letras e que erros são exibidos para entradas inválidas.
+- Valide que o campo “e-mail” aceita apenas e-mails válidos com “@”.
+- Teste se o campo “senha” atende os requisitos (mínimo de 8 caracteres, 1 especial, 1 número e 1 maiúscula).
+- Verifique se o campo “confirmar senha” deve ser igual à “senha”.
+- Confirme a funcionalidade de visualizar as senhas, que devem estar ocultas por padrão.
+- Certifique-se de que os botões “Registrar” e “Cancelar” funcionam corretamente.
+- Realize testes adicionais com dados inválidos para garantir que os erros sejam exibidos corretamente.
 ---
 ## 🔑 Funcionalidades Implementadas
 
