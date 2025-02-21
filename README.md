@@ -35,48 +35,13 @@ A aplicação contém:
 │── requirements.txt     # Dependências do projeto
 │── README.md            # Documentação
 ```
+### 🚀 Acesse a Aplicação Online
+Você pode testar a aplicação diretamente no seguinte link:  
+[https://desafio-login.onrender.com](https://desafio-login.onrender.com)
+
+Não é necessário clonar o repositório nem rodar localmente.
 
 ---
-## ⚙️ Como Configurar o Projeto
-
-⚠️ Pré-requisitos
-- Python 3 instalado (verifique com `python --version`)
-- Git instalado (opcional, se quiser clonar o repositório)
-- Ambiente virtual recomendado para isolar as dependências
-
-
-### 1️⃣ Clonar o Repositório
-```bash
-git clone https://github.com/LuccasOlivier/desafio_login.git
-cd desafio-login
-```
-
-### 2️⃣ Criar e Ativar um Ambiente Virtual
-```bash
-python -m venv venv
-source venv/bin/activate  # Para Linux/Mac
-venv\Scripts\activate     # Para Windows
-```
-
-### 3️⃣ Instalar as Dependências
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Configurar o Banco de Dados
-- O projeto utiliza **SQLite**, então o banco já está configurado por padrão.
-
-### 5️⃣ Aplicar Migrações e Criar um Superusuário
-```bash
-python manage.py migrate
-python manage.py createsuperuser  # (Opcional para acessar o admin do Django)
-```
-
-### 6️⃣ Rodar a Aplicação
-```bash
-python manage.py runserver
-```
-Acesse no navegador: **http://127.0.0.1:8000/**
 
 ## 🛠 Como Testar a Aplicação
 - Criar um usuário pela tela de registro e testar o login
