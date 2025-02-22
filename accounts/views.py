@@ -52,8 +52,13 @@ def register_view(request):
             return redirect('register')
 
         # Validação da senha
-        if len(senha) < 8 or not re.search(r'[A-Za-z]', senha) or not re.search(r'[0-9]', senha) or not re.search(r'[\W_]', senha):
-            messages.error(request, 'A senha deve conter pelo menos 8 caracteres, 1 caractere especial, 1 número e 1 letra.')
+        if (
+            len(senha) < 8 or 
+            not re.search(r'[A-Z]', senha) or 
+            not re.search(r'[0-9]', senha) or 
+            not re.search(r'[\W_]', senha)
+        ):
+            messages.error(request, 'A senha deve conter pelo menos 8 caracteres, 1 caractere especial, 1 número e 1 letra maiúscula.')
             return redirect('register')
 
         # Verifica se as senhas coincidem

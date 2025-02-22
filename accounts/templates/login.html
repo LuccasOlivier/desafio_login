@@ -53,14 +53,6 @@
   >
 </div>
 
-{% if messages %}
-<ul class="mt-4 text-red-500">
-  {% for message in messages %}
-  <li>{{ message }}</li>
-  {% endfor %}
-</ul>
-{% endif %}
-
 <script>
   function togglePasswordVisibility(inputId) {
     var passwordField = document.getElementById(inputId);
