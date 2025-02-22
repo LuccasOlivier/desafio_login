@@ -43,7 +43,7 @@ def register_view(request):
 
         # Validação do nome (apenas letras)
         if not nome.isalpha():
-            messages.error(request, 'O nome deve conter apenas letras.')
+            messages.error(request, 'O nome deve conter apenas letras e não pode ter espaços sobrando.')
             return redirect('register')
 
         # Validação do e-mail
