@@ -41,6 +41,9 @@ Você pode testar a aplicação diretamente no seguinte link:
 
 Não é necessário clonar o repositório nem rodar localmente.
 
+OBS: Ao acessar o site, a aplicação pode levar alguns segundos para carregar devido ao sistema de hospedagem. Por favor, aguarde enquanto a tela é inicializada.
+
+
 ---
 
 ## 🛠 Como Testar a Aplicação
