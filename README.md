@@ -9,7 +9,7 @@ A aplicação contém:
 - Redirecionamento para uma tela de Menu após o login bem-sucedido
 
 ---
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3**
 - **Django**
@@ -35,7 +35,7 @@ A aplicação contém:
 │── requirements.txt     # Dependências do projeto
 │── README.md            # Documentação
 ```
-### 🚀 Acesse a Aplicação Online
+### Acesse a Aplicação Online
 Você pode testar a aplicação diretamente no seguinte link:  
 [https://desafio-login.onrender.com](https://desafio-login.onrender.com)
 
@@ -60,14 +60,14 @@ OBS: Ao acessar o site, a aplicação pode levar alguns segundos para carregar d
 - Certifique-se de que os botões “Registrar” e “Cancelar” funcionam corretamente.
 - Realize testes adicionais com dados inválidos para garantir que os erros sejam exibidos corretamente.
 ---
-## 🔑 Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
-### ✅ Tela de Login
+### Tela de Login
 - Validação de login (e-mail e senha obrigatórios)
 - Mensagens de erro para credenciais inválidas
 - Redirecionamento para a tela "Menu" após login bem-sucedido
 
-### ✅ Tela de Registro
+### Tela de Registro
 - Formulário com **nome, e-mail, senha e confirmar senha**
 - Validações:
   - Nome: Apenas letras
@@ -77,10 +77,10 @@ OBS: Ao acessar o site, a aplicação pode levar alguns segundos para carregar d
 - Opção para visualizar a senha
 - Botão "Registrar" e "Cancelar" (redireciona para a tela de Login)
 
-### ✅ Tela do Menu
+### Tela do Menu
 - Ao realizar o login, o Usuário deverá ser direcionado para uma tela chamada “Menu”, que não precisa ter nenhum componente internamente, apenas a mudança da tela
 
-### ✅ Implementações extras
+### Implementações extras
  - Estilização moderna: Utilizei Tailwind CSS para criar um layout clean e responsivo.
  - Acesso restrito: O acesso à página de menu foi configurado para ser exclusivo de usuários logados, garantindo maior segurança.
  - Redirecionamento inteligente: Caso um usuário não autenticado tente acessar a página do menu, ele será automaticamente redirecionado para a página de login.
@@ -88,7 +88,7 @@ OBS: Ao acessar o site, a aplicação pode levar alguns segundos para carregar d
 ---
 
 ## 📜 Licença
-Este projeto foi desenvolvido exclusivamente para fins do processo seletivo e não possui licença de uso público.
+Este projeto foi desenvolvido exclusivamente para fins de processos seletivos e não possui licença de uso público.
 
 ---
 **Desenvolvido por Lucas Oliveira. 🖥️**
